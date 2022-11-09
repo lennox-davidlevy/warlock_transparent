@@ -31,6 +31,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PmenuSel ctermbg=243 ctermfg=235 cterm=NONE guibg=#767676 guifg=#262626 gui=NONE
     hi PmenuThumb ctermbg=243 ctermfg=243 cterm=NONE guibg=#767676 guifg=#767676 gui=NONE
     hi MatchParen ctermbg=234 ctermfg=231 cterm=NONE guibg=#NONE guifg=#ffcc00 gui=NONE
+    hi EndOfBuffer guifg=NONE
 
     " Custom
     " hi Normal ctermbg=235 ctermfg=250 cterm=NONE guibg=#262626 guifg=#9e8e78 gui=NONE
