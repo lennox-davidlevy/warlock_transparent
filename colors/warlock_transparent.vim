@@ -31,7 +31,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PmenuSel ctermbg=243 ctermfg=235 cterm=NONE guibg=#767676 guifg=#262626 gui=NONE
     hi PmenuThumb ctermbg=243 ctermfg=243 cterm=NONE guibg=#767676 guifg=#767676 gui=NONE
     hi MatchParen ctermbg=234 ctermfg=231 cterm=NONE guibg=#NONE guifg=#ffcc00 gui=NONE
-    hi EndOfBuffer ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi EndOfBuffer ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
 
     " Custom
     " hi Normal ctermbg=235 ctermfg=250 cterm=NONE guibg=#262626 guifg=#9e8e78 gui=NONE
@@ -50,7 +50,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     " hi PmenuSel ctermbg=243 ctermfg=235 cterm=NONE guibg=#767676 guifg=#262626 gui=NONE
     " hi PmenuThumb ctermbg=243 ctermfg=243 cterm=NONE guibg=#767676 guifg=#767676 gui=NONE
     " hi MatchParen ctermbg=234 ctermfg=231 cterm=NONE guibg=#262626 guifg=#b8bb26 gui=NONE
-    " hi EndOfBuffer ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
+    " hi EndOfBuffer ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#NONE gui=NONE
 
     " Unchanged
     hi NonText ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#585858 gui=NONE
@@ -116,7 +116,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
 
     hi Normal ctermbg=black ctermfg=lightgrey cterm=NONE
     hi NonText ctermbg=NONE ctermfg=darkgrey cterm=NONE
-    hi EndOfBuffer ctermbg=NONE ctermfg=darkgrey cterm=NONE
+    hi EndOfBuffer ctermbg=NONE ctermfg=NONE cterm=NONE
     hi LineNr ctermbg=black ctermfg=lightgrey cterm=NONE
     hi FoldColumn ctermbg=black ctermfg=lightgrey cterm=NONE
     hi Folded ctermbg=black ctermfg=lightgrey cterm=NONE
