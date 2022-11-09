@@ -1,4 +1,4 @@
 # Transparent Warlock
 
-Based on [ Warlock ]( https://hardselius.github.io/warlock )
+Based on [ Warlock ](https://github.com/hardselius/warlock)
 
