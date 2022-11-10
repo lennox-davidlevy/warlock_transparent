@@ -90,7 +90,6 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi StatusLineNC ctermbg=238 ctermfg=244 cterm=NONE guibg=#444444 guifg=#808080 gui=NONE
     hi StatusLineTerm ctermbg=244 ctermfg=235 cterm=NONE guibg=#808080 guifg=#262626 gui=NONE
     hi StatusLineTermNC ctermbg=238 ctermfg=244 cterm=NONE guibg=#444444 guifg=#808080 gui=NONE
-    hi Visual ctermbg=235 ctermfg=248 cterm=reverse guibg=#262626 guifg=#a8a8a8 gui=reverse
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi VertSplit ctermbg=238 ctermfg=238 cterm=NONE guibg=#444444 guifg=#444444 gui=NONE
     hi WildMenu ctermbg=248 ctermfg=235 cterm=NONE guibg=#a8a8a8 guifg=#262626 gui=NONE
