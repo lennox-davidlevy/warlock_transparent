@@ -34,6 +34,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
 
     " Custom
     hi Normal ctermbg=235 ctermfg=250 cterm=NONE guibg=#262626 guifg=#9e8e78 gui=NONE
+    hi Visual ctermbg=235 ctermfg=248 cterm=reverse guibg=#000000 guifg=#ffb000 gui=reverse
     hi LineNr ctermbg=234 ctermfg=242 cterm=NONE guibg=#262626 guifg=#6c6c6c gui=NONE
     hi SignColumn ctermbg=234 ctermfg=242 cterm=NONE guibg=#262626 guifg=#6c6c6c gui=NONE
     hi DiagnosticSignError ctermbg=238 ctermfg=250 cterm=NONE guibg=#262626 guifg=#fb4934 gui=NONE
