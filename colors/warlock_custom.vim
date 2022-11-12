@@ -51,6 +51,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PmenuThumb ctermbg=243 ctermfg=243 cterm=NONE guibg=#767676 guifg=#767676 gui=NONE
     hi MatchParen ctermbg=234 ctermfg=231 cterm=NONE guibg=#262626 guifg=#b8bb26 gui=NONE
     hi EndOfBuffer ctermbg=NONE ctermfg=240 cterm=NONE guibg=NONE guifg=#262626 gui=NONE
+    hi TelescopeSelection guifg=#000000 guibg=#ffb000
 
 
 
